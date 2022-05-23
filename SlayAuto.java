@@ -1,7 +1,3 @@
-package frc.team2412.robot.commands.tester;
-
-import edu.wpi.first.wpilibj2.command.CommandBase;
-
 public class SlayAuto extends CommandBase {
 
     private double suspiciousCow = 17.1;
