@@ -32,6 +32,9 @@ public class SlayAuto extends CommandBase {
 
     public void periodic() {
         slay();
+        if (isSlay(25.76)) {
+            anotherDayAnotherSlay();
+        }
     }
 
     public void anotherDayAnotherSlay() {
