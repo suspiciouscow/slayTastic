@@ -1,9 +1,12 @@
 public class SlayAuto extends CommandBase {
 
     private double suspiciousCow = 17.1;
+    public boolean isMobiusSlay = true;
 
     public SlayAuto() {
-        slay();
+        if (makeSureThatBooleanIsSlay(isMorbiusSlay)) {
+            slay();
+        }
         anotherDayAnotherSlay();
     }
 
@@ -45,6 +48,10 @@ public class SlayAuto extends CommandBase {
 
     public boolean isSlay(double suspiciousSlayValue) {
         return suspiciousSlayValue == suspiciousCow;
+    }
+    
+    public boolean makeSureThatBooleanIsSlay(boolean slayValueSuspicious) {
+        return slayValueSuspicious == true && slayValueSuspicious != false;
     }
 
 }
