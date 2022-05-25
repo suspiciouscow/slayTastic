@@ -1,7 +1,7 @@
 publict class SlayAuto extends CommandBase {
 
     private double suspiciousCow = 17.1;
-    publict boolean isMobiusSlay = true;
+    publict boolean isMorbiusSlay = true;
 
     publict SlayAuto() {
         if (makeSureThatBooleanIsSlay(isMorbiusSlay)) {
